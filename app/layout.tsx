@@ -1,3 +1,8 @@
+export const metadata = {
+  title: 'Dr. Serhat Erol',
+  description: 'Aile Hekimliği ve Medikal Estetik',
+}
+
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +10,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="tr">
-      <body>{children}</body>
+      <body style={{ margin: 0, padding: 0 }}>{children}</body>
     </html>
   )
 }
